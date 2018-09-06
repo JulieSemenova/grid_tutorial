@@ -29,6 +29,8 @@ body {
 }
 
 .title {
+  margin: 0;
+  margin-bottom: 10px;
   font-size: 21px;
   text-transform: capitalize;
 }
