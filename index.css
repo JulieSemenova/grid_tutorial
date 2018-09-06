@@ -22,6 +22,18 @@
   grid-template-rows: 40px 200px 40px;
 }
 
+.container--4 {
+  height: 100%;
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 40px auto 40px;
+  grid-template-areas:
+    'h h h h h h h h h h h h'
+    'm c c c c c c c c c c c'
+    'f f f f f f f f f f f f';
+}
+
 .header {
   grid-column: 2 / -1;
 }
@@ -36,4 +48,20 @@
 
 .footer {
   grid-column: 1 / -1;
+}
+
+.header--4 {
+  grid-area: h;
+}
+
+.menu--4 {
+  grid-area: m;
+}
+
+.content--4 {
+  grid-area: c;
+}
+
+.footer--4 {
+  grid-area: f;
 }
