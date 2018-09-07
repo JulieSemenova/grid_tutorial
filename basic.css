@@ -44,3 +44,10 @@ body {
   font-size: 18px;
   text-transform: capitalize;
 }
+
+.subtitle {
+  color: #ff6f69;
+  background-color: #ffeead;
+  padding: 10px 0;
+  margin: 0px;
+}
